@@ -16,3 +16,4 @@ class TestForm:
             p = form_page.fill_form_fields()
             result = form_page.form_result()
             assert [p.firstname + ' ' + p.lastname, p.email] == [result[0], result[1]], 'the form has not been filled'
+            
